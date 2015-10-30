@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class PotatoTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "potato count" do
+    potato = potatoes(:one)
+    assert_equal 38, potato.count
+  end
 end
