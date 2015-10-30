@@ -18,7 +18,7 @@ end
 
 <p align="center">OR</p>
 
-<p align="center">`rails new Potato`</p>
+<p align="center"><code>rails new Potato</code></p>
 
 
 Yes, an entire app based on potatoes complete with a mailer to let you know when spuds are created.
