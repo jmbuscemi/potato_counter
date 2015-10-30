@@ -1,3 +1,40 @@
 // Place all the styles related to the Potatoes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.centered {
+  text-align: center;
+}
+
+#header {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+#potato-count {
+  font-size: 10rem;
+  margin-bottom: 100px;
+}
+
+code {
+  color: #808;
+  background: #EEE;
+  padding: 2px 8px 2px 8px;
+}
+
+.potato-image {
+  width: 50px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+#potato-image-row {
+  margin-bottom: 100px;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
