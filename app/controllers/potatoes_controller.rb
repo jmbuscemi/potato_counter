@@ -1,5 +1,5 @@
 class PotatoesController < ApplicationController
   def home
-    @potatoes = Potato.all
+    @potato = Potato.first
   end
 end
